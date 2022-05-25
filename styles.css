@@ -1,0 +1,165 @@
+/* #region  H E A D E R */
+/* <copyright file="mcodeStyles.css" company="MicroCODE Incorporated">Copyright © 2022 MicroCODE Incorporated Troy, MI</copyright><author>Timothy J. McGuire</author> */
+/* #region  P R E A M B L E */
+/* #region  D O C U M E N T A T I O N */
+/*
+ *      Title:    Styles for React Tic-Tac-Toe App
+ *      Module:   Styles (MITxPRO-ReactATM:styles.css)
+ *      Project:  MicroCODE Common Library
+ *      Customer: Internal
+ *      Creator:  MicroCODE Incorporated
+ *      Date:     May 2022
+ *      Author:   Timothy J McGuire
+ *
+ *      Designed and Coded: 2022 MicroCODE Incorporated
+ *
+ *      This software and related materials are the property of
+ *      MicroCODE Incorporated and contain confidential and proprietary
+ *      information. This software and related materials shall not be
+ *      duplicated, disclosed to others, or used in any way without the
+ *      written of MicroCODE Incorported.
+ *
+ *
+ *      DESCRIPTION:
+ *      ------------
+ *
+ *      This module implements the MicroCODE's Common Cascading Style Sheet (CSS) Template.
+ *      This file is copied to start all MicroCODE CSS files.
+ *      It demonstrates our desired ordering and formatting of a CSS file.
+ *
+ *
+ *      REFERENCES:
+ *      -----------
+ *
+ *      1. MIT xPRO CSS Style Guide
+ *         https://student.emeritus.org/courses/3291/files/2554233/download?wrap=1
+ *
+ *      2. AirBnB CSS Style Guide
+ *         https://github.com/airbnb/css
+ *
+ *      3. Google HTML/CSS Style Guide
+ *         https://google.github.io/styleguide/htmlcssguide.html
+ *
+ *      4. MicroCODE HTML-CSS Style Guide
+ *         Local File: MCX-S03 (Internal HHTML-CSS Style Guide).docx
+ *         https://github.com/MicroCODEIncorporated/HTML-CSS-SG
+ *
+ *
+ *      DEMONSTRATION VIDEOS:
+ *      --------------------
+ *
+ *      1. ...
+ *
+ *
+ *
+ *      MODIFICATIONS:
+ *      --------------
+ *
+ *  Date:         By-Group:   Rev:     Description:
+ *
+ *  24-May-2022   TJM-MCODE  {0001}    New module for common reusable Cascading Style Sheet (CSS) files.
+ *
+ *
+ */
+
+/* #endregion */
+/* #endregion */
+/* #endregion */
+
+/* #region  C S S */
+/* #region  S T Y L E S */
+
+/* #region  I D  -- highest priority, references <... id="id-name" ...> - a specific instance of an element */
+
+#id-name {
+
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* #endregion */
+
+/* #region  C L A S S -- lower priority, references <... class="class-name" - a defined type of element */
+
+.class-name {
+
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.red {
+
+    color: red;
+}
+
+.cyan {
+
+    color: cyan;
+}
+
+.lime {
+
+    color: lime;
+}
+
+.white {
+
+    color: white;
+}
+
+.black {
+
+    color: black;
+}
+
+.game-board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: gray;
+    color: white;
+    border: 6px solid darkgray;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.grid-row {
+    border: 6px solid gray;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+}
+
+.block {
+    background-color: gray;
+    border: 6px solid black;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20em;
+}
+
+/* #endregion */
+
+/* #region  T A G -- lowest priority, references <tag-name> - an HTML Tag */
+
+tag-name {
+
+    font-family: 'Michroma', sans-serif;
+}
+
+button {
+    background-color: black;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+/* #endregion */
+
+/* #endregion */
+/* #endregion */
